@@ -1,0 +1,1 @@
+ExchangeError: bittrex does not have currency code 

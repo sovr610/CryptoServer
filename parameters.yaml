@@ -1,0 +1,14 @@
+      /Describe:
+        GET:
+          description: Get information of an exchange, to see what functions are available and what are not with this API server
+          produces:
+            - application/json
+          parameters:
+            - name: exchange
+              description: The exchange name
+              in: formData
+              required: true
+              type: string
+          responses:
+            200:
+              description: got description of exchange
